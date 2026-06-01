@@ -632,7 +632,7 @@
                     <!-- Persistent header (all steps) -->
                     <div id="q-header-provador">
                         <h1>Provador Virtual</h1>
-                        <img src="https://acdn-us.mitiendanube.com/stores/005/666/965/themes/common/logo-1736834517-1757684109-613bda3c075ef676d7e60f15274a14b31757684109-480-0.webp" alt="FORTUNA SUNGLASSES" style="height:48px;width:auto;"/>
+                        <img src="https://acdn-us.mitiendanube.com/stores/005/666/965/themes/common/logo-1736834517-1757684109-613bda3c075ef676d7e60f15274a14b31757684109-480-0.webp" alt="FORTUNA SUNGLASSES" style="height:64px;width:auto;"/>
                     </div>
 
                     <!-- Main step -->
