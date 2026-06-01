@@ -157,11 +157,11 @@
 
         :root {
             --c-bg: #ffffff;
-            --c-surface: #f7f6f4;
-            --c-ink: #111111;
+            --c-surface: #fbf4f2;
+            --c-ink: #2a1a18;
             --c-muted: #999;
-            --c-line: #e8e8e8;
-            --c-accent: #111111;
+            --c-line: #ead7d3;
+            --c-accent: #b25a55;
             --c-danger: #cc3333;
             --font-display: 'Bebas Neue', sans-serif;
             --font-body: 'DM Sans', sans-serif;
@@ -186,13 +186,13 @@
         .q-btn-inline-provador {
             display: flex; align-items: center; justify-content: center; gap: 7px;
             width: 100%; padding: 13px 16px;
-            background: transparent; color: var(--c-ink);
-            border: 1.5px solid var(--c-ink); border-radius: 0;
+            background: transparent; color: var(--c-accent);
+            border: 1.5px solid var(--c-accent); border-radius: 0;
             font-family: 'Work Sans', var(--font-body), sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase;
             cursor: pointer; transition: background 0.25s, color 0.25s;
             margin-bottom: 10px; box-sizing: border-box;
         }
-        .q-btn-inline-provador:hover { background: var(--c-ink); color: #fff; }
+        .q-btn-inline-provador:hover { background: var(--c-accent); color: #fff; }
         .q-btn-inline-provador svg { width: 14px; height: 14px; flex-shrink: 0; }
 
         /* ── Modal overlay ── */
@@ -383,7 +383,7 @@
         /* Corner marks — clean editorial style */
         .q-face-corner {
             position: absolute; width: 20px; height: 20px;
-            border-color: var(--c-ink); border-style: solid;
+            border-color: var(--c-accent); border-style: solid;
             transition: border-color 0.2s;
         }
         .q-face-corner-tl { top: 0; left: 0; border-width: 2px 0 0 2px; }
@@ -420,7 +420,7 @@
         /* ── CTA buttons ── */
         .q-btn-black {
             width: 100%; height: 52px;
-            background: var(--c-ink); color: #fff;
+            background: var(--c-accent); color: #fff;
             border: none; border-radius: 0;
             font-family: var(--font-display); font-size: 17px;
             letter-spacing: 3px; text-transform: uppercase;
