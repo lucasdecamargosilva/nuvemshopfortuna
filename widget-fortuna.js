@@ -752,9 +752,13 @@
 
 
     function init() {
-        // --- FILTRO DE CATEGORIA (HAT) ---
+        // --- FILTRO DE CATEGORIA (HAT / RELÓGIO) ---
         const productNameNormalized = (document.querySelector('h1.product__title,.product-single__title,h1')?.innerText || document.title).toUpperCase();
         if (productNameNormalized.includes('HAT')) {
+            return;
+        }
+        // Não exibir o provador em páginas de relógio (não é óculos)
+        if (/REL[ÓO]GIO|RELOGIO|\bWATCH\b/.test(productNameNormalized)) {
             return;
         }
 
